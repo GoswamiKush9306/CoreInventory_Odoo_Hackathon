@@ -104,6 +104,15 @@ public class InventoryRepository {
         products.add(product);
     }
 
+    public void removeProduct(String productId) {
+        for (int i = 0; i < products.size(); i++) {
+            if (products.get(i).id.equals(productId)) {
+                products.remove(i);
+                break;
+            }
+        }
+    }
+
     public Product createProduct(String name, String sku, String category,
                                  String unit, int stock, Warehouse wh) {
         String id = UUID.randomUUID().toString().replace("-", "").substring(0, 8);

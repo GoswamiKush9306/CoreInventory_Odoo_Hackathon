@@ -4,12 +4,14 @@ import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.stocdex.R;
+import com.example.stocdex.data.InventoryRepository;
 import com.example.stocdex.data.Product;
 
 import java.util.List;
@@ -48,6 +50,13 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
             color = Color.parseColor("#6FEBBF");
         }
         holder.stock.setTextColor(color);
+
+        holder.deleteButton.setOnClickListener(v -> {
+            InventoryRepository.getInstance().removeProduct(p.id);
+            items.remove(position);
+            notifyItemRemoved(position);
+            notifyItemRangeChanged(position, items.size());
+        });
     }
 
     @Override
@@ -57,6 +66,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
 
     static class ProductViewHolder extends RecyclerView.ViewHolder {
         TextView name, skuCategory, warehouse, stock;
+        ImageButton deleteButton;
 
         ProductViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -64,6 +74,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
             skuCategory = itemView.findViewById(R.id.textProductSkuCategory);
             warehouse = itemView.findViewById(R.id.textProductWarehouse);
             stock = itemView.findViewById(R.id.textProductStock);
+            deleteButton = itemView.findViewById(R.id.buttonDeleteProduct);
         }
     }
 }
