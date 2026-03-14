@@ -1,9 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.StocDex" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.StocDex" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/stocdex_teal_primary</item>
+        <item name="colorPrimaryContainer">@color/stocdex_surface_card</item>
+        <item name="android:windowBackground">@color/stocdex_background_light</item>
     </style>
-
-    <style name="Theme.StocDex" parent="Base.Theme.StocDex" />
 </resources>
