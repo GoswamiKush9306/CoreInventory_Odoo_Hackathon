@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.stocdex.R;
-import com.stocdex.data.Product;
+import com.example.stocdex.R;
+import com.example.stocdex.data.Product;
 
 import java.util.List;
 

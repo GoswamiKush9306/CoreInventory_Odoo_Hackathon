@@ -7,8 +7,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.stocdex.R;
-import com.stocdex.data.ThemeUtils;
+import com.example.stocdex.R;
+import com.example.stocdex.data.ThemeUtils;
 
 public class OtpResetActivity extends AppCompatActivity {
 

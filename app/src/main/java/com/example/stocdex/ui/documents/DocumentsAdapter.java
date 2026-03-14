@@ -8,8 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.stocdex.R;
-import com.stocdex.data.InventoryDocument;
+import com.example.stocdex.R;
+import com.example.stocdex.data.InventoryDocument;
 
 import java.util.ArrayList;
 import java.util.List;

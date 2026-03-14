@@ -31,6 +31,8 @@ public class InventoryRepository {
                 "units", 12, "wh1", "Main Warehouse"));
         products.add(new Product("3", "Packaging Boxes", "BOX-004", "Supplies",
                 "units", 0, "wh1", "Main Warehouse"));
+        products.add(new Product("4", "Electric Motors", "MOT-010", "Electronics",
+                "units", 5, "wh2", "Production Floor"));
 
         documents.add(new InventoryDocument(
                 "d1",
@@ -53,6 +55,28 @@ public class InventoryRepository {
                 "DO-001",
                 "Office Chairs",
                 10
+        ));
+        documents.add(new InventoryDocument(
+                "d3",
+                InventoryDocument.DocumentType.INTERNAL,
+                InventoryDocument.DocumentStatus.READY,
+                "wh2",
+                "Production Floor",
+                "Raw Material",
+                "INT-005",
+                "Steel Rods",
+                20
+        ));
+        documents.add(new InventoryDocument(
+                "d4",
+                InventoryDocument.DocumentType.ADJUSTMENT,
+                InventoryDocument.DocumentStatus.DONE,
+                "wh1",
+                "Main Warehouse",
+                "Electronics",
+                "INV-012",
+                "Electric Motors",
+                -2
         ));
     }
 
@@ -183,5 +207,3 @@ public class InventoryRepository {
         return result;
     }
 }
-
-

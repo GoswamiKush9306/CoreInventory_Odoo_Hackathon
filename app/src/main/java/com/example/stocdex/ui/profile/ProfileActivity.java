@@ -6,10 +6,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.stocdex.R;
-import com.stocdex.data.InventoryRepository;
-import com.stocdex.data.ThemeUtils;
-import com.stocdex.ui.auth.LoginActivity;
+import com.example.stocdex.R;
+import com.example.stocdex.data.InventoryRepository;
+import com.example.stocdex.data.ThemeUtils;
+import com.example.stocdex.ui.auth.LoginActivity;
 
 public class ProfileActivity extends AppCompatActivity {
 

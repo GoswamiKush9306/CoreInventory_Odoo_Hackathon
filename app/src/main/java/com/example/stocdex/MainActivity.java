@@ -5,10 +5,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.stocdex.data.InventoryRepository;
-import com.stocdex.data.ThemeUtils;
-import com.stocdex.ui.auth.LoginActivity;
-import com.stocdex.ui.dashboard.DashboardActivity;
+import com.example.stocdex.data.InventoryRepository;
+import com.example.stocdex.data.ThemeUtils;
+import com.example.stocdex.ui.auth.LoginActivity;
+import com.example.stocdex.ui.dashboard.DashboardActivity;
 
 public class MainActivity extends AppCompatActivity {
 

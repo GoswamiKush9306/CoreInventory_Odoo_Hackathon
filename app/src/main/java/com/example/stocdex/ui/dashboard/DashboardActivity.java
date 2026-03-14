@@ -7,18 +7,18 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.stocdex.R;
-import com.stocdex.data.DashboardKpis;
-import com.stocdex.data.InventoryRepository;
-import com.stocdex.data.ThemeUtils;
-import com.stocdex.ui.documents.DocumentsActivity;
-import com.stocdex.ui.operations.AdjustmentsActivity;
-import com.stocdex.ui.operations.DeliveryActivity;
-import com.stocdex.ui.operations.ReceiptsActivity;
-import com.stocdex.ui.operations.TransfersActivity;
-import com.stocdex.ui.products.ProductsActivity;
-import com.stocdex.ui.profile.ProfileActivity;
-import com.stocdex.ui.settings.SettingsActivity;
+import com.example.stocdex.R;
+import com.example.stocdex.data.DashboardKpis;
+import com.example.stocdex.data.InventoryRepository;
+import com.example.stocdex.data.ThemeUtils;
+import com.example.stocdex.ui.documents.DocumentsActivity;
+import com.example.stocdex.ui.operations.AdjustmentsActivity;
+import com.example.stocdex.ui.operations.DeliveryActivity;
+import com.example.stocdex.ui.operations.ReceiptsActivity;
+import com.example.stocdex.ui.operations.TransfersActivity;
+import com.example.stocdex.ui.products.ProductsActivity;
+import com.example.stocdex.ui.profile.ProfileActivity;
+import com.example.stocdex.ui.settings.SettingsActivity;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -28,12 +28,7 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        TextView textTotalStockValue = findViewById(R.id.textTotalStockValue);
-        TextView textLowStockValue = findViewById(R.id.textLowStockValue);
-
-        DashboardKpis kpis = InventoryRepository.getInstance().getDashboardKpis();
-        textTotalStockValue.setText(String.valueOf(kpis.totalProductsInStock));
-        textLowStockValue.setText(String.valueOf(kpis.lowStockCount));
+        updateKpis();
 
         Button buttonProducts = findViewById(R.id.buttonProducts);
         Button buttonDocuments = findViewById(R.id.buttonDocuments);
@@ -52,6 +47,23 @@ public class DashboardActivity extends AppCompatActivity {
         buttonAdjustments.setOnClickListener(v -> open(AdjustmentsActivity.class));
         buttonSettings.setOnClickListener(v -> open(SettingsActivity.class));
         buttonProfile.setOnClickListener(v -> open(ProfileActivity.class));
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateKpis();
+    }
+
+    private void updateKpis() {
+        TextView textTotalStockValue = findViewById(R.id.textTotalStockValue);
+        TextView textLowStockValue = findViewById(R.id.textLowStockValue);
+
+        if (textTotalStockValue != null && textLowStockValue != null) {
+            DashboardKpis kpis = InventoryRepository.getInstance().getDashboardKpis();
+            textTotalStockValue.setText(String.valueOf(kpis.totalProductsInStock));
+            textLowStockValue.setText(String.valueOf(kpis.lowStockCount));
+        }
     }
 
     private void open(Class<?> cls) {

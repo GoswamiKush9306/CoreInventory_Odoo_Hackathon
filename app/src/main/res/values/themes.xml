@@ -1,7 +1,26 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.StocDex" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/stocdex_teal_primary</item>
-        <item name="colorPrimaryContainer">@color/stocdex_surface_card</item>
+        <!-- Main colors -->
+        <item name="colorPrimary">@color/stocdex_primary_light</item>
+        <item name="colorOnPrimary">@color/stocdex_on_primary</item>
+
+        <!-- Background and Surface -->
         <item name="android:windowBackground">@color/stocdex_background_light</item>
+        <item name="colorSurface">@color/stocdex_surface_card</item>
+        <item name="colorOnSurface">@color/stocdex_text_main</item>
+        <item name="colorPrimaryContainer">@color/stocdex_surface_card</item>
+
+        <!-- Component styles -->
+        <item name="materialButtonStyle">@style/Widget.StocDex.Button</item>
+    </style>
+
+    <style name="Widget.StocDex.Button" parent="Widget.Material3.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.StocDex.Medium</item>
+    </style>
+
+    <style name="ShapeAppearance.StocDex.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">12dp</item>
     </style>
 </resources>

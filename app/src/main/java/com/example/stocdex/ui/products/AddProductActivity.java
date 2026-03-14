@@ -6,10 +6,10 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.stocdex.R;
-import com.stocdex.data.InventoryRepository;
-import com.stocdex.data.ThemeUtils;
-import com.stocdex.data.Warehouse;
+import com.example.stocdex.R;
+import com.example.stocdex.data.InventoryRepository;
+import com.example.stocdex.data.ThemeUtils;
+import com.example.stocdex.data.Warehouse;
 
 import java.util.List;
 
