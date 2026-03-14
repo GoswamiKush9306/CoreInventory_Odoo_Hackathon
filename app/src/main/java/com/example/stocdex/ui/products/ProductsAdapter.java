@@ -1,4 +1,4 @@
-package com.stocdex.ui.products;
+package com.example.stocdex.ui.products;
 
 import android.graphics.Color;
 import android.view.LayoutInflater;

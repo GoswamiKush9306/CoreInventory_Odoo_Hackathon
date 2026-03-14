@@ -1,4 +1,4 @@
-package com.stocdex.data;
+package com.example.stocdex.data;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.stocdex.ui.auth;
+package com.example.stocdex.ui.auth;
 
 import android.content.Intent;
 import android.os.Bundle;

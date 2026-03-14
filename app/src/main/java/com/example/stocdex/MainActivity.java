@@ -1,4 +1,4 @@
-package com.stocdex;
+package com.example.stocdex;
 
 import android.content.Intent;
 import android.os.Bundle;
