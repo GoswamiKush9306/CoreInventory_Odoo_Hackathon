@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.documents;
+package com.stocdex.ui.documents;
 
 import android.view.View;
 import android.widget.AdapterView;

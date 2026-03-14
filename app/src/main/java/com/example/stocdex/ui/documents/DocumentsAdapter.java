@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.documents;
+package com.stocdex.ui.documents;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.InventoryDocument;
+import com.stocdex.R;
+import com.stocdex.data.InventoryDocument;
 
 import java.util.ArrayList;
 import java.util.List;

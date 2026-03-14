@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.settings;
+package com.stocdex.ui.settings;
 
 import android.os.Bundle;
 import android.widget.RadioButton;
@@ -6,10 +6,10 @@ import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.ThemeMode;
-import com.example.stocdex.data.ThemePrefs;
-import com.example.stocdex.data.ThemeUtils;
+import com.stocdex.R;
+import com.stocdex.data.ThemeMode;
+import com.stocdex.data.ThemePrefs;
+import com.stocdex.data.ThemeUtils;
 
 public class SettingsActivity extends AppCompatActivity {
 

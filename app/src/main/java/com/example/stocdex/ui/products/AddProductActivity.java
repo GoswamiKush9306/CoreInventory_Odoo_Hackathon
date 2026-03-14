@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.products;
+package com.stocdex.ui.products;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -6,10 +6,10 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.InventoryRepository;
-import com.example.stocdex.data.ThemeUtils;
-import com.example.stocdex.data.Warehouse;
+import com.stocdex.R;
+import com.stocdex.data.InventoryRepository;
+import com.stocdex.data.ThemeUtils;
+import com.stocdex.data.Warehouse;
 
 import java.util.List;
 

@@ -1,37 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Light Theme Palette (Modern Teal/Sage) -->
-    <color name="stocdex_background_light">#F8FAFC</color>
-    <color name="stocdex_surface_card">#FFFFFF</color>
-    <color name="stocdex_primary_light">#0D9488</color> <!-- Teal 600 -->
-    <color name="stocdex_teal_primary">#0D9488</color>
-    <color name="stocdex_primary_variant_light">#0F766E</color>
-    <color name="stocdex_on_primary">#FFFFFF</color>
-    <color name="stocdex_secondary_light">#64748B</color> <!-- Slate 500 -->
-    <color name="stocdex_sage">#71968E</color>
-    <color name="stocdex_accent_light">#2DD4BF</color>
-
-    <color name="stocdex_text_main">#1E293B</color>
-    <color name="stocdex_text_muted">#64748B</color>
-
-    <!-- Dark Theme Palette (Black & Purple) -->
-    <color name="stocdex_background_dark">#000000</color>
-    <color name="stocdex_surface_dark">#121212</color>
-    <color name="stocdex_primary_dark">#A855F7</color> <!-- Purple 500 -->
-    <color name="stocdex_primary_variant_dark">#7E22CE</color>
-    <color name="stocdex_on_primary_dark">#FFFFFF</color>
-    <color name="stocdex_secondary_dark">#3B0764</color>
-    <color name="stocdex_accent_dark">#D8B4FE</color>
-
-    <color name="stocdex_text_main_dark">#F8FAFC</color>
-    <color name="stocdex_text_muted_dark">#94A3B8</color>
-
-    <!-- Status Colors -->
-    <color name="stocdex_success">#10B981</color>
-    <color name="stocdex_warning">#F59E0B</color>
-    <color name="stocdex_error">#EF4444</color>
-    <color name="stocdex_out_of_stock">#EF4444</color>
-
-    <!-- Helper colors -->
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>

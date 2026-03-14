@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.auth;
+package com.stocdex.ui.auth;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -7,8 +7,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.ThemeUtils;
+import com.stocdex.R;
+import com.stocdex.data.ThemeUtils;
 
 public class OtpResetActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.auth;
+package com.stocdex.ui.auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.InventoryRepository;
-import com.example.stocdex.data.ThemeUtils;
-import com.example.stocdex.ui.dashboard.DashboardActivity;
+import com.stocdex.R;
+import com.stocdex.data.InventoryRepository;
+import com.stocdex.data.ThemeUtils;
+import com.stocdex.ui.dashboard.DashboardActivity;
 
 public class LoginActivity extends AppCompatActivity {
 

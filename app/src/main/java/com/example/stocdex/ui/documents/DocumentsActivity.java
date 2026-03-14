@@ -1,4 +1,4 @@
-package com.example.stocdex.ui.documents;
+package com.stocdex.ui.documents;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.stocdex.R;
-import com.example.stocdex.data.InventoryDocument;
-import com.example.stocdex.data.InventoryRepository;
-import com.example.stocdex.data.ThemeUtils;
-import com.example.stocdex.data.Warehouse;
+import com.stocdex.R;
+import com.stocdex.data.InventoryDocument;
+import com.stocdex.data.InventoryRepository;
+import com.stocdex.data.ThemeUtils;
+import com.stocdex.data.Warehouse;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Glow/Circle -->
+    <path
+        android:fillColor="#004D4D"
+        android:pathData="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" />
+
+    <!-- Pallet -->
+    <path
+        android:fillColor="#8B6D4F"
+        android:pathData="M60,130 L140,130 L140,145 L130,145 L130,135 L110,135 L110,145 L90,145 L90,135 L70,135 L70,145 L60,145 Z" />
+    <path
+        android:strokeColor="#1A0D07"
+        android:strokeWidth="2"
+        android:pathData="M60,130 L140,130 L140,145 L60,145 Z M90,130 L90,145 M110,130 L110,145" />
+
+    <!-- Box Bottom Left -->
+    <path
+        android:fillColor="#B78864"
+        android:pathData="M65,100 L95,100 L95,130 L65,130 Z" />
+    <path
+        android:strokeColor="#1A0D07"
+        android:strokeWidth="1.5"
+        android:pathData="M65,100 L95,100 L95,130 L65,130 Z" />
+
+    <!-- Box Bottom Right (with Label) -->
+    <path
+        android:fillColor="#B78864"
+        android:pathData="M105,100 L135,100 L135,130 L105,130 Z" />
+    <path
+        android:strokeColor="#1A0D07"
+        android:strokeWidth="1.5"
+        android:pathData="M105,100 L135,100 L135,130 L105,130 Z" />
+    <!-- Label on Box -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,105 L130,105 L130,125 L110,125 Z" />
+    <path
+        android:strokeColor="#1A0D07"
+        android:strokeWidth="1"
+        android:pathData="M112,110 L128,110 M112,115 L120,115 M112,120 L128,120" />
+
+    <!-- Box Top Middle -->
+    <path
+        android:fillColor="#D9A87F"
+        android:pathData="M85,70 L115,70 L115,100 L85,100 Z" />
+    <path
+        android:strokeColor="#1A0D07"
+        android:strokeWidth="1.5"
+        android:pathData="M85,70 L115,70 L115,100 L85,100 Z" />
+    <!-- Tape on top box -->
+    <path
+        android:fillColor="#1A0D07"
+        android:pathData="M95,70 L105,70 L105,80 L95,80 Z" />
+
+    <!-- STOCDEX Text (Simplified as shapes) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,165 L140,165"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF" />
+
+</vector>
