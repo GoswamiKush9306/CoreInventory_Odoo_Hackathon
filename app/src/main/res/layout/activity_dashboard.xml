@@ -1,6 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/stocdex_background_light"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textDashboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textInventorySnapshot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inventory snapshot"
+            android:textSize="14sp"
+            android:textColor="@color/stocdex_sage"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutKpis"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/cardTotalStock"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@color/stocdex_surface_card">
+
+                <TextView
+                    android:id="@+id/textTotalStockValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total products in stock"
+                    android:textSize="12sp"
+                    android:textColor="@color/stocdex_sage"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="8dp"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:id="@+id/cardLowStock"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@color/stocdex_surface_card">
+
+                <TextView
+                    android:id="@+id/textLowStockValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Low stock"
+                    android:textSize="12sp"
+                    android:textColor="@color/stocdex_sage"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textQuickActions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick actions"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/buttonProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Products"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonDocuments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Documents"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonReceipts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receipts (Incoming)"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery orders"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonTransfers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal transfers"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonAdjustments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock adjustments"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/buttonSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

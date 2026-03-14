@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="4dp"
+    android:background="@color/stocdex_surface_card"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textDocTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECEIPT · REC-001"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textDocSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Warehouse · Raw Material"
+        android:textSize="12sp"
+        android:textColor="@color/stocdex_sage" />
+
+    <TextView
+        android:id="@+id/textDocStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WAITING"
+        android:textSize="12sp"
+        android:textColor="@color/stocdex_teal_primary"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/stocdex_background_light">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product name" />
+
+        <EditText
+            android:id="@+id/inputSku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SKU / Code"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Unit of measure"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/inputInitialStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Initial stock"
+            android:inputType="number"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/buttonSaveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create product"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/stocdex_teal_primary"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>
