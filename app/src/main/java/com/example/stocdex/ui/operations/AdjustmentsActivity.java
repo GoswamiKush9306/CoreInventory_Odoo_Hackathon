@@ -1,4 +1,18 @@
-package com.example.stocdex.ui.operations;
+package com.stocdex.ui.operations;
 
-public class AdjustmentsActivity {
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.stocdex.R;
+import com.stocdex.data.ThemeUtils;
+
+public class AdjustmentsActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        ThemeUtils.applyTheme(this);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_adjustments);
+    }
 }
