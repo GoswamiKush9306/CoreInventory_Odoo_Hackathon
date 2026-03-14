@@ -1,4 +1,4 @@
-package com.stocdex.data;
+package com.example.stocdex.data;
 
 public class Warehouse {
     public String id;

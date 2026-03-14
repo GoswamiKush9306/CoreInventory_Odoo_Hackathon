@@ -1,4 +1,4 @@
-package com.stocdex.ui.profile;
+package com.example.stocdex.ui.profile;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.stocdex.ui.operations;
+package com.example.stocdex.ui.operations;
 
 import android.os.Bundle;
 

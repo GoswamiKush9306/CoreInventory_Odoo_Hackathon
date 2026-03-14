@@ -1,4 +1,4 @@
-package com.stocdex.ui.settings;
+package com.example.stocdex.ui.settings;
 
 import android.os.Bundle;
 import android.widget.RadioButton;

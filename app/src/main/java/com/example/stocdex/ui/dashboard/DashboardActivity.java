@@ -1,4 +1,4 @@
-package com.stocdex.ui.dashboard;
+package com.example.stocdex.ui.dashboard;
 
 import android.content.Intent;
 import android.os.Bundle;

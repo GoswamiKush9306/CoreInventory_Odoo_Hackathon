@@ -1,4 +1,4 @@
-package com.stocdex.data;
+package com.example.stocdex.data;
 
 public enum ThemeMode {
     LIGHT, DARK, SYSTEM
