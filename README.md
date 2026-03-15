@@ -1,78 +1,75 @@
 ##### StocDex is a modern, efficient Android application designed to streamline inventory management and warehouse operations. Built with a focus on usability and real-time tracking, it provides a comprehensive suite of tools for businesses to manage their stock levels, movements, and documentation.
 
-##### 
 
-### 🚀 Features
 
-### 
+🚀 Features
 
-### 📊 Dashboard \& Analytics
+ 
+📊 Dashboard \& Analytics
 
-##### •Real-time Overview: Get an immediate snapshot of your inventory health with KPI cards showing Total Stock and Low Stock alerts.
+•Real-time Overview: Get an immediate snapshot of your inventory health with KPI cards showing Total Stock and Low Stock alerts.
 
-##### •Quick Actions: Navigate easily to core operations like Products, Documents, and Receipts.
+•Quick Actions: Navigate easily to core operations like Products, Documents, and Receipts.
 
-##### 
+ 
 
-##### 📦 Product Management
+📦 Product Management
 
-##### •Inventory Catalog: View and manage a detailed list of all products.
+•Inventory Catalog: View and manage a detailed list of all products.
 
-##### •Add New Items: Seamlessly add products with SKU/Internal Reference, Category, and Unit of Measure.
+•Add New Items: Seamlessly add products with SKU/Internal Reference, Category, and Unit of Measure.
 
-##### •Stock Tracking: Keep tabs on initial stock levels and real-time updates.
+•Stock Tracking: Keep tabs on initial stock levels and real-time updates.
 
-##### 
+ 
 
-##### 🔄 Operations (Warehouse Management)
+🔄 Operations (Warehouse Management)
 
-##### •Receipts: Manage incoming goods and stock arrivals from suppliers.
+•Receipts: Manage incoming goods and stock arrivals from suppliers.
 
-##### •Delivery: Handle outgoing goods and shipments with picking and packing workflows.
+•Delivery: Handle outgoing goods and shipments with picking and packing workflows.
 
-##### •Transfers: Record and log movements between different internal locations (e.g., Warehouse to Production).
+•Transfers: Record and log movements between different internal locations (e.g., Warehouse to Production).
 
-##### •Adjustments: Perform stock corrections and audits to ensure digital inventory matches physical stock.
+•Adjustments: Perform stock corrections and audits to ensure digital inventory matches physical stock.
 
-##### 
 
-##### 📄 Document \& Records
 
-##### •Centralized Search: Quickly find documents using advanced search and filtering.
+📄 Document \& Records
 
-##### •Filtering: Filter records by Type, Status, Warehouse, or Category.
+•Centralized Search: Quickly find documents using advanced search and filtering.
 
-##### •Audit Trails: Maintain a history of all inventory movements.
+•Filtering: Filter records by Type, Status, Warehouse, or Category.
 
-##### 
+•Audit Trails: Maintain a history of all inventory movements.
 
-##### 🔐 Security \& Personalization
 
-##### •Authentication: Secure login with password recovery and OTP reset functionality.
 
-##### •User Profiles: Manage account information.
+🔐 Security \& Personalization
 
-##### •Dynamic Themes: Support for Light Mode, Dark Mode, and System Default.
+•Authentication: Secure login with password recovery and OTP reset functionality.
 
-##### 
+•User Profiles: Manage account information.
 
-##### 🛠 Tech Stack
+•Dynamic Themes: Support for Light Mode, Dark Mode, and System Default.
 
-##### •Language: Java
 
-##### •UI Framework: Material Design 3 (M3)
 
-##### •Architecture: ViewBinding for type-safe view interaction
+🛠 Tech Stack
 
-##### •Navigation: Android Navigation Component
+•Language: Java
 
-##### •Min SDK: 21 (Android 5.0)
+•UI Framework: Material Design 3 (M3),xml
 
-##### •Target SDK: 36
+•Architecture: ViewBinding for type-safe view interaction
 
-##### 
+•Navigation: Android Navigation Component
 
-##### 🎨 Design Philosophy
+•Min SDK: 21 (Android 5.0)
 
-##### StocDex features a clean, professional "Teal \& Earth" color palette designed to reduce eye strain during long periods of use in warehouse environments. The UI utilizes high-contrast typography and clear iconography for better readability.
+•Target SDK: 36
+
+🎨 Design Philosophy
+
+StocDex features a clean, professional "Teal \& Earth" color palette designed to reduce eye strain during long periods of use in warehouse environments. The UI utilizes high-contrast typography and clear iconography for better readability.
 
